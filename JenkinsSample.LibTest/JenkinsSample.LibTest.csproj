@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <!--<PackageReference Include="Microsoft.TestPlatform.TestHost" Version="15.3.0-preview-20170628-02" />-->
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0" />
+    <PackageReference Include="NUnit" Version="3.8.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.8.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JenkinsSample.Lib\JenkinsSample.Lib.csproj">
+      <Project>{923DBA4E-3DC2-4E7C-AAF8-4A75FE5502B6}</Project>
+      <Name>JenkinsSample.Lib</Name>
+    </ProjectReference>
+
+  </ItemGroup>
+</Project>
